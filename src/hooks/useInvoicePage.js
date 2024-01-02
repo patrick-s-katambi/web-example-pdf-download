@@ -23,7 +23,7 @@ export function useInvoicePage() {
                 phone: faker.phone.number(),
             },
             invoiceLabels: { invoiceNumber: faker.string.nanoid(9), date: faker.date.recent().toDateString() },
-            tableInfo: Array.from({ length: 17 }).map((_, index) => ({
+            tableInfo: Array.from({ length: 7 }).map((_, index) => ({
                 description: faker.commerce.productName(),
                 unitCost: Math.random() * 10000,
                 qtyHrRate: Math.random() * 100,
