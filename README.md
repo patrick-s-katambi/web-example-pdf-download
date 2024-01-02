@@ -5,4 +5,4 @@
 ## Features included
 
 -   [x] PDF download
--   [x] PDF open in browser
+-   [x] PDF in-browser preview
